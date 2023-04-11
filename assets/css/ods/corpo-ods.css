@@ -1,0 +1,527 @@
+ .container-ods {
+    margin-top: 5rem;
+}
+
+/* .container-titulo-ods{
+    background-color: aqua;
+    margin-top: 50px;
+} */
+
+.titulo-ods {
+    font-size: 50px;
+    /* float: left; */
+}
+
+/* .titulo-ods-2 {
+    width: 400px;
+    /* float: left; */
+    /* margin-left: 10px;
+    margin-top: 19px; 
+
+
+} */
+
+.container-card{
+    display: flex;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+}
+.card-ods{
+    width: 15rem;
+    height: 50px;
+    transition: transform .5s; 
+    margin-top: 20px;
+    margin-right: 50px;
+    
+}
+
+.card-ods:hover{
+    transform: scale(1.1);
+
+}
+
+.card-title{
+    text-decoration: solid;
+}
+
+
+
+/* MODAL */
+
+.btn-close-card{
+  font-weight: bolder;
+  width: 100%;
+}
+
+/* CARD E MODAL - 01 */
+.btn-card-01{
+  width: 100%;
+  background-color: #e5243b;
+  font-weight: bolder;
+}
+
+.btn-card-01:hover{
+  background-color: #e5243b;
+}
+
+.modal-header-01{
+  background-color: #e5243b;
+
+}
+
+.btn-close-card-01{
+  background-color: #e5243b;
+  width: 100%;
+}
+
+.btn-close-card-01:hover{
+  background-color: #6f0511;
+  width: 100%;
+  color: white;
+}
+
+
+
+/* CARD E MODAL - 02 */
+
+.btn-card-02{
+  width: 100%;
+  background-color: #dda83a;
+  font-weight: bolder;
+}
+
+.btn-card-02:hover{
+  background-color: #dda83a;
+}
+
+.modal-header-02 {
+  background-color: #dda83a;
+
+}
+
+.btn-close-card-02{
+  background-color: #dda83a;
+  width: 100%;
+}
+
+.btn-close-card-02:hover{
+  background-color: #805500;
+  width: 100%;
+  color: white;
+}
+
+
+/* CARD E MODAL - 03 */
+.btn-card-03{
+  width: 100%;
+  background-color: #4c9f38;
+  font-weight: bolder;
+}
+
+.btn-card-03:hover{
+  background-color: #4c9f38
+}
+
+.modal-header-03{
+  background-color: #4c9f38
+
+}
+
+.btn-close-card-03{
+  background-color: #4c9f38;
+  width: 100%;
+}
+
+.btn-close-card-03:hover{
+  background-color: #146500;
+  width: 100%;
+  color: white;
+}
+
+
+/* CARD E MODAL - 04 */
+.btn-card-04{
+  width: 100%;
+  background-color: #c5192d;
+  font-weight: bolder;
+}
+
+.btn-card-04:hover{
+  background-color: #c5192d;
+}
+
+.modal-header-04{
+  background-color: #c5192d
+
+}
+
+.btn-close-card-04{
+  background-color: #c5192d;
+  width: 100%;
+}
+
+.btn-close-card-04:hover{
+  background-color: #700b17;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 05 */
+.btn-card-05{
+  width: 100%;
+  background-color: #ff3a21;
+  font-weight: bolder;
+}
+
+.btn-card-05:hover{
+  background-color: #ff3a21;
+}
+
+.modal-header-05{
+  background-color: #ff3a21
+
+}
+
+.btn-close-card-05{
+  background-color: #ff3a21;
+  width: 100%;
+}
+
+.btn-close-card-05:hover{
+  background-color: #6a1308;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 06 */
+.btn-card-06{
+  width: 100%;
+  background-color: #26bde2;
+  font-weight: bolder;
+}
+
+.btn-card-06:hover{
+  background-color: #26bde2;
+}
+
+.modal-header-06{
+  background-color: #26bde2;
+
+}
+
+.btn-close-card-06{
+  background-color: #26bde2;
+  width: 100%;
+}
+
+.btn-close-card-06:hover{
+  background-color: #064f61;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 07 */
+.btn-card-07{
+  width: 100%;
+  background-color: #fcc30b;  ;
+  font-weight: bolder;
+}
+
+.btn-card-07:hover{
+  background-color: #fcc30b ;
+}
+
+.modal-header-07{
+  background-color: #fcc30b;
+
+}
+
+.btn-close-card-07{
+  background-color: #fcc30b;
+  width: 100%;
+}
+
+.btn-close-card-07:hover{
+  background-color: #977402;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 08 */
+.btn-card-08{
+  width: 100%;
+  background-color: #a21942;  ;
+  font-weight: bolder;
+}
+
+.btn-card-08:hover{
+  background-color: #a21942 ;
+}
+
+.modal-header-08{
+  background-color: #a21942;
+
+}
+
+.btn-close-card-08{
+  background-color: #a21942;
+  width: 100%;
+}
+
+.btn-close-card-08:hover{
+  background-color: #4e061c;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 09 */
+.btn-card-09{
+  width: 100%;
+  background-color: #fd6925;  
+  font-weight: bolder;
+}
+
+.btn-card-09:hover{
+  background-color: #fd6925 ;
+}
+
+.modal-header-09{
+  background-color: #fd6925;
+
+}
+
+.btn-close-card-09{
+  background-color: #fd6925;
+  width: 100%;
+}
+
+.btn-close-card-09:hover{
+  background-color: #9a3100;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 10 */
+.btn-card-10{
+  width: 100%;
+  background-color: #dd1367;  
+  font-weight: bolder;
+}
+
+.btn-card-10:hover{
+  background-color: #dd1367 ;
+}
+
+.modal-header-10{
+  background-color: #dd1367;
+
+}
+
+.btn-close-card-10{
+  background-color: #dd1367;
+  width: 100%;
+}
+
+.btn-close-card-10:hover{
+  background-color: #69002c;
+  width: 100%;
+  color: white;
+}
+/* CARD E MODAL - 11 */
+.btn-card-11{
+  width: 100%;
+  background-color: #fd9d24;  
+  font-weight: bolder;
+}
+
+.btn-card-11:hover{
+  background-color: #fd9d24 ;
+}
+
+.modal-header-11{
+  background-color: #fd9d24;
+
+}
+
+.btn-close-card-11{
+  background-color: #fd9d24;
+  width: 100%;
+}
+
+.btn-close-card-11:hover{
+  background-color: #854900;
+  width: 100%;
+  color: white;
+}
+/* CARD E MODAL - 12 */
+.btn-card-12{
+  width: 100%;
+  background-color: #bf8b2e;  
+  font-weight: bolder;
+}
+
+.btn-card-12:hover{
+  background-color: #bf8b2e ;
+}
+
+.modal-header-12{
+  background-color: #bf8b2e;
+
+}
+
+.btn-close-card-12{
+  background-color: #bf8b2e;
+  width: 100%;
+}
+
+.btn-close-card-12:hover{
+  background-color: #634005;
+  width: 100%;
+  color: white;
+}
+/* CARD E MODAL - 13 */
+.btn-card-13{
+  width: 100%;
+  background-color: #3f7e44;  
+  font-weight: bolder;
+}
+
+.btn-card-13:hover{
+  background-color: #3f7e44 ;
+}
+
+.modal-header-13{
+  background-color: #3f7e44;
+
+}
+
+.btn-close-card-13{
+  background-color: #3f7e44;
+  width: 100%;
+}
+
+.btn-close-card-13:hover{
+  background-color: #03520a;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 14 */
+.btn-card-14{
+  width: 100%;
+  background-color: #0a97d9;  
+  font-weight: bolder;
+}
+
+.btn-card-14:hover{
+  background-color: #0a97d9 ;
+}
+
+.modal-header-14{
+  background-color: #0a97d9;
+
+}
+
+.btn-close-card-14{
+  background-color: #0a97d9;
+  width: 100%;
+}
+
+.btn-close-card-14:hover{
+  background-color: #025075;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 15 */
+.btn-card-15{
+  width: 100%;
+  background-color: #56c02b;  
+  font-weight: bolder;
+}
+
+.btn-card-15:hover{
+  background-color: #56c02b ;
+}
+
+.modal-header-15{
+  background-color: #56c02b;
+
+}
+
+.btn-close-card-15{
+  background-color: #56c02b;
+  width: 100%;
+}
+
+.btn-close-card-15:hover{
+  background-color: #195102;
+  width: 100%;
+  color: white;
+}
+
+/* CARD E MODAL - 16 */
+.card-16{
+  margin-left: 30%;
+}
+.btn-card-16{
+  width: 100%;
+  background-color: #00689d;  
+  font-weight: bolder;
+}
+
+.btn-card-16:hover{
+  background-color: #00689d ;
+}
+
+.modal-header-16{
+  background-color: #00689d;
+
+}
+
+.btn-close-card-16{
+  background-color: #00689d;
+  width: 100%;
+}
+
+.btn-close-card-16:hover{
+  background-color: #023149;
+  width: 100%;
+  color: white;
+}
+/* CARD E MODAL - 17 */
+.btn-card-17{
+  width: 100%;
+  background-color: #19486a;  
+  font-weight: bolder;
+}
+
+.btn-card-17:hover{
+  background-color: #19486a ;
+}
+
+.modal-header-17{
+  background-color: #19486a;
+
+}
+
+.btn-close-card-17{
+  background-color: #19486a;
+  width: 100%;
+}
+
+.btn-close-card-17:hover{
+  background-color: #062a43;
+  width: 100%;
+  color: white;
+}
+
+
+.ods-card-oque{
+  font-weight: bolder;
+}
+
+

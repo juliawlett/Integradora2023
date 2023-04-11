@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+/* .carousel_container{
+    background-color: black;
+    width:100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}*/
+
+.tam__carousel {
+    margin-top: 50px;
+
+}
+
+.carrossel {
+    background-color: black;
+    height: 70%;
+
+}
+
+.carousel_container {
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    /* Adiciona uma sombra de 10px nas bordas com cor preta e opacidade de 50% /*/
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.9)
+     
+}
